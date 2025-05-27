@@ -1,0 +1,37 @@
+[11:48:36] Client1: Salut
+[11:48:39] Client2: Hey
+[11:48:50] Client2: Bleh
+[11:48:54] Client1: Han
+[11:49:07] Client3: Bouh
+[11:49:13] Client1: Salu
+[11:51:34] Client1: jhgfds
+[14:02:03] Client1: salut
+[14:02:14] Client2: hello
+[14:02:23] Client2: est ce que ça marche ?
+[14:02:29] Client1: plutot bien ouais
+[14:02:38] Client1: kjdbefbefb
+[14:02:39] Client1: egete
+[14:02:55] Client3: saluuuu
+[14:30:45] Client1: salut
+[14:30:48] Client2: bouh
+[14:30:56] Client2: ca marche vite fait
+[14:30:59] Client1: effectivement
+[14:31:06] Client1: zbeub
+[14:31:09] Client1: yay
+[14:31:12] Client2: huiygug
+[14:33:57] Client1: salut
+[14:34:00] Client2: test
+[14:34:01] Client2: zyatag
+[14:59:08] Client1: jkhzhzh
+[14:59:14] Client2: ssss
+[09:13:35] Client1: hhh
+[09:13:38] Client1: jjj
+[09:13:39] Client1: as
+[09:15:10] Client2: bh
+[09:15:12] Client2: k
+[09:15:12] Client2: j
+[09:16:42] Client3: aaa
+[09:16:43] Client3: as
+[09:16:44] Client3: z
+[09:16:44] Client3: a
+[09:16:45] Client3: z
