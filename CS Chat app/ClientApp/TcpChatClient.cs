@@ -16,6 +16,7 @@ public class TcpChatClient
         this.port = port;
     }
 
+    //Connexion au serveur
     public void Connect()
     {
         client = new TcpClient(serverIP, port);
@@ -45,6 +46,7 @@ public class TcpChatClient
         Console.WriteLine("[Client] Connecté au serveur.");
     }
 
+    //boucle de réception et d'envoi de messages au serveur
     public void StartChat()
     {
         Thread receiveThread = new Thread(ReceiveMessages);
@@ -67,12 +69,14 @@ public class TcpChatClient
         Disconnect();
     }
 
+    //Fonction d'envoi de message au serveur
     private void SendMessage(string message)
     {
         byte[] data = Encoding.UTF8.GetBytes(message);
         stream.Write(data, 0, data.Length);
     }
 
+    //Fonction de reception de message (si on veut transformer la communication client-serveur en chat)
     private void ReceiveMessages()
     {
         try
@@ -100,6 +104,7 @@ public class TcpChatClient
         }
     }
 
+    //Deconnexion du client
     private void Disconnect()
     {
         stream.Close();
