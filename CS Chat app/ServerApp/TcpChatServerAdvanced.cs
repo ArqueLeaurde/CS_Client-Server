@@ -125,7 +125,7 @@ public class TcpChatServerAdvanced
             Broadcast($"[Serveur] {client.Name} a quitté le chat.", null);
         }
     }
-
+    //fonction de broadcast des messages a l'ensemble des clients
     private void Broadcast(string message, ClientInfo sender)
     {
         byte[] data = Encoding.UTF8.GetBytes(message);
@@ -149,12 +149,14 @@ public class TcpChatServerAdvanced
         }
     }
 
+    //fonction d'envoi des messages aux clients
     private void SendToClient(NetworkStream stream, string message)
     {
         byte[] data = Encoding.UTF8.GetBytes(message);
         stream.Write(data, 0, data.Length);
     }
 
+    //fonction de reception des messages du client
     private string ReadFromClient(NetworkStream stream, byte[] buffer)
     {
         int bytesRead = stream.Read(buffer, 0, buffer.Length);
